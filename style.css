@@ -1,18 +1,39 @@
 h1{
     font-size: 50px;
 }
-.name-highlight{
+h2{
+    font-size: 40px;
+}
+.all-highlight{
     color: orange;
 }
 body{
+    margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
 .top-part{
-    width: 48%;
-    float:left;
+    width: 45%;
+    float: left;
     margin-left: 2%;
-    
-
+    margin-right: 3%;
+}
+.top-part p{
+    background-color: papayawhip;
+}
+.other-part{
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+}
+.other-part p{
+    color: dimgray;
+    background-color: ivory;
+}
+#special{
+    width: 90%;
+    margin-left: 0%;
 }
 .jrm{
     text-decoration: none;
@@ -24,13 +45,59 @@ body{
 }
 .top-part p{
     text-align: justify;
+    color: dimgray;
 }
 .button{
-    font-size: 30px;
+    font-size: 25px;
     color:white;
-    padding: 10px 25px;
-    border-radius: 20px;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 10px;
     font-weight: 700;
     background-image: linear-gradient(45deg, salmon, tomato);
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.second-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
+.second-part img{
+    width: 100%;
+}
+.last-design{
+    box-shadow: 10px 10px 40px gray ;
+    padding: 2%;
+    height: 60%;
+}
+.last-image{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.last-one{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, salmon, tomato);
+    border-image-slice: 1;
+    border-radius: 10px;
+    background-color: white;
+}
+#last-two{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    border-radius: 10px;
+    
+}
+footer{
+    text-align: center;
+    font-size: 12px;
 }
